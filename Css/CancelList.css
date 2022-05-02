@@ -1,0 +1,44 @@
+.frame{
+    width: 400px; 
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% ); 
+    margin: 0 auto;               
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 5px solid rgb(120, 169, 211);
+}
+.header{
+    width: 400px;  
+    text-align: center;
+}
+h1{
+    font-size : 25px;
+}
+.content{
+    margin-left:5px;
+    width: 390px;
+    height: 85px;
+    margin: 0 auto; 
+    overflow : auto;
+    border: 0.5px solid rgb(120, 169, 211);
+    border-radius : 5px;
+}
+.button{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width:80px;
+    height:20px;
+    cursor:pointer;
+    border: 1px solid black; 
+    background-color: skyblue;
+    border-radius : 5px;
+}
+.button:hover{ 
+    color:white; 
+    background-color: skyblue; 
+}

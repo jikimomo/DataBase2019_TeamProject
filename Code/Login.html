@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="uft-8">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Londrina+Outline|Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" href="../Css/Login.css">
+    </head>
+    <body>
+        <div class="frame">
+            <div class="box">
+                <div class="header">
+                    <img src="../image/Vaccine_1.png" width="15" height="30">
+                    Login
+                    <img src="../image/Vaccine_2.png" width="15" height="30">
+                </div>
+                <div class="content">
+                    <form action="LoginCheck.php" method="GET" style="display: inline;"> 
+                        <input type='text' name="Id" maxlength="20" placeholder="UserID" class="typing"><br>
+                        <input type='password' name="pwd" maxlength="30" placeholder="Password" class="typing" style="margin-top: 5px;"><br>
+                        <input type='submit' value="Login" class="button" style="margin-top: 5px;">
+                    </form>
+                    <input class="button" type='button' value="SignUp" onClick="location.href='SignUp.html'">
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

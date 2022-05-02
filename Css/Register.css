@@ -1,0 +1,23 @@
+.frame{
+    width: 800px; 
+    height: 520px; 
+    margin: 0 auto;               
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.button{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width:80px;
+    height:20px;
+    cursor:pointer;
+    border: 1px solid black; 
+    background-color: skyblue;
+    border-radius : 5px;
+}
+.button:hover{ 
+    color:white; 
+    background-color: skyblue; 
+}

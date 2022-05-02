@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Withdraw Pop up</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Londrina+Outline|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/MainMenu.css">
+    <script language="javascript">
+        function CloseAndMove() {
+            opener.location.href="Withdraw.php";
+            self.close();
+        }
+    </script>
+</head>
+<body>
+    <div class=frame style="width:450; height:130; ">
+        <h1>do you really want to 
+            <br>withdraw your account? </h1>
+        <div style="text-align: center;">
+            <input class="button" type='button' name='Yes' value='Yes' onClick="CloseAndMove();" style="margin-top : 5px; ">
+            <input class="button" type='button' name='No' value='No' onClick="self.close();" style="margin-top : 5px;">
+        </div>
+    </div>
+</body>
+</html>
